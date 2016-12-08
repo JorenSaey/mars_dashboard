@@ -5,6 +5,7 @@
  */
 package StartUp;
 
+import domain.DashboardController;
 import gui.Dashboard;
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -25,7 +26,7 @@ public class main extends Application
     public void start(Stage stage) throws Exception 
     {
         stage.setTitle("Mars dashboard");
-        stage.setScene(new Scene(new Dashboard(),800,600));
+        stage.setScene(new Scene(new Dashboard(new DashboardController()),800,600));
         stage.show();
     }
 }

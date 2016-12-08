@@ -9,6 +9,7 @@ package domain;
  *
  * @author Joren
  */
-public class Dashboard {
+public class PressureSensor 
+{
     
 }
